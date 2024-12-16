@@ -1,0 +1,124 @@
+<resources>
+    <style name="Theme.QRTT.123" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:background">@drawable/border</item>
+    </style>
+
+    <!--df dialog-->
+
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="viewParent.headerText">
+        <item name="android:textColor">@color/contentTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="viewParent.headerText.NoMode">
+        <item name="android:textColor">@color/darkTextColor</item>
+    </style>
+
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="modifiedEditText" parent="parent">
+        <item name="android:backgroundTint">@color/primaryTextColor</item>
+    </style>
+
+    <style name="loginButton" parent="viewParent">
+        <item name="android:background">@drawable/button_background_blue</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="spinnerHintText" parent="parent">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+<!--    <style name="CustomDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">-->
+<!--        <item name="android:windowBackground">@android:color/transparent</item>-->
+<!--        <item name="android:windowIsFloating">true</item>-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+<!--        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>-->
+<!--        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>-->
+<!--        <item name="android:backgroundDimAmount">0.7</item>-->
+<!--    </style>-->
+
+    <style name="CustomDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:textColorPrimary">#FFFFFF</item> <!-- Белый цвет текста -->
+        <item name="android:textColorSecondary">#FFFFFF</item> <!-- Белый цвет текста -->
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+<!--    <style name="CustomFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">-->
+<!--        <item name="backgroundTint">@color/colorAccent</item> &lt;!&ndash; Цвет фона &ndash;&gt;-->
+<!--        <item name="tint">@android:color/white</item> &lt;!&ndash; Цвет иконки &ndash;&gt;-->
+<!--        <item name="elevation">6dp</item> &lt;!&ndash; Тень &ndash;&gt;-->
+<!--        <item name="pressedTranslationZ">12dp</item> &lt;!&ndash; Эффект нажатия &ndash;&gt;-->
+<!--        <item name="rippleColor">@color/colorPrimaryDark</item> &lt;!&ndash; Цвет эффекта нажатия &ndash;&gt;-->
+<!--        <item name="useCompatPadding">true</item> &lt;!&ndash; Использовать совместимые отступы &ndash;&gt;-->
+<!--        <item name="android:background">@color/colorAccent</item> &lt;!&ndash; Простой фон без внутреннего круга &ndash;&gt;-->
+<!--    </style>-->
+
+    <!-- Стиль для заголовка диалога -->
+    <style name="CustomDialogTitleStyle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Стиль для анимации диалога -->
+    <style name="CustomDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="CustomFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+<!--        <item name="backgroundTint">@color/colorAccent</item>-->
+        <item name="backgroundTint">@color/dark_gray</item>
+        <item name="tint">@android:color/white</item>
+<!--        <item name="rippleColor">@color/colorPrimaryDark</item>-->
+        <item name="shapeAppearanceOverlay">@style/CustomShapeAppearanceOverlay</item>
+    </style>
+
+    <style name="CustomShapeAppearanceOverlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="CustomDatePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+<!--        <item name="android:textColorPrimary">#000000</item>-->
+        <item name="android:textColor">@color/black</item>
+        <item name="colorControlActivated">#c4c4c4</item>
+        <item name="colorAccent">#475c45</item>
+    </style>
+
+    <!-- res/values/styles.xml -->
+<!--    <style name="CustomFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">-->
+<!--        <item name="android:background">@drawable/custom_background</item>-->
+<!--    </style>-->
+</resources>

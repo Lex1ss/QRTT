@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="camera_container_height_expanded">300dp</dimen>
+
+    <dimen name="bottom_sheet_peek_height">42dp</dimen>
+</resources>

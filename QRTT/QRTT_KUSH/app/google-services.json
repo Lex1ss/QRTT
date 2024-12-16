@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "670677213309",
+    "project_id": "qrtt-mpei",
+    "storage_bucket": "qrtt-mpei.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670677213309:android:511a5292a92227e6a25114",
+        "android_client_info": {
+          "package_name": "com.example.qrtt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAimALE0N2qPkYLQmW3I_22a0orzlt27Rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

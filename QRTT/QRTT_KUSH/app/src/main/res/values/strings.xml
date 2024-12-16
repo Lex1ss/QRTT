@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QRTT</string>
+    <string name="error_message">Authentication failed: %s</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="qrtt">QRTT</string>
+    <string name="disclaimer_n_nthis_application_is_intended_solely_for_internal_use_by_qrtt_nany_use_of_the_application_outside_the_company_is_strictly_prohibited">DISCLAIMER!\n\nThis application is intended solely for internal use by QRTT.\nAny use of the application outside the company is strictly prohibited.</string>
+    <string name="signup">SIGNUP</string>
+</resources>
